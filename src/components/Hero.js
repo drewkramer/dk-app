@@ -7,7 +7,7 @@ const Hero = props => (
         <div className="HeroGroup">
             <h1>{props.title}</h1>
             <p>{props.text}</p>
-            <Link to="{props.link}">{props.linkTitle}</Link>
+            <Link to={props.link}>{props.linkTitle}</Link>
         </div>
     </div>
 )

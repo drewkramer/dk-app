@@ -9,7 +9,7 @@ const SecondPage = () => (
       image={require('../images/wallpaper.jpg')}
       title="Courses"
       text="Complete courses about the best tools and design systems. Prototype and build apps with React and Swift."
-      link="/video"
+      link="#"
       linkTitle="Buy the courses" />
   </div>
 )

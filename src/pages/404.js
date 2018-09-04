@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Hero from '../components/Hero';
 
 const NotFoundPage = () => (
   <div>
-    <div className="Hero">
-      <div className="HeroGroup">
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-        <Link to="/">Back to Home</Link>
-      </div>
-    </div>
+    <Hero
+      image={require('../images/wallpaper4.jpg')}
+      title="Not Found"
+      text="You just hit a route that doesn&#39;t exist... the sadness."
+      link="/"
+      linkTitle="Back to home" />
   </div>
 )
 
