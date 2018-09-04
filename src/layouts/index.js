@@ -19,7 +19,7 @@ const Layout = ({ children, data }) => (
     {children()}
     
     <Footer data={data}>
-      Backgrounds made in Cinema 4 D, iOS app in Swift, site in React. <a href="mailto:hello@drewkramer.co">Email us</a> to ask anything. © 2018 - Terms of Service - Privacy Policy
+      Backgrounds made in Cinema 4 D, iOS app in Swift, site in React. <br></br><a href="mailto:hello@drewkramer.co">Email us</a> to ask anything. © 2018 - Terms of Service - Privacy Policy
     </Footer>
   </div>
 )

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 let FooterGroup = styled.div`
 	background: #F1F3F5;
-	padding: 50px 0;
+	padding: 50px 20px;
 	display: grid;
 	grid-gap: 20px;
 `
@@ -13,7 +13,8 @@ const Text = styled.p`
 	font-weight: 600;
 	color: #486791;
 	max-width: 500px;
-	margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
 `
 
 const Button = styled.button`
@@ -35,7 +36,8 @@ const Button = styled.button`
 `
 
 let LinkGroup = styled.div`
-	width: 500px;
+    width: 100%;
+    max-width: 500px;
 	margin: 50px auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -55,9 +57,10 @@ let LinkGroup = styled.div`
 `
 const Copyright = styled.div`
 	color: #486791
-	max-width: 500px;
+    max-width: 500px;
+    width: 100%;
 	margin: 0 auto;
-	padding: 0 20px;
+    font-size: 14px;
 `
 
 const Footer = ({ data, children }) => (

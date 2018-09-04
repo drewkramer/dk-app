@@ -56,6 +56,7 @@
     font-size: 60px;
     text-align: center;
     font-weight: 700;
+    line-height: 1.2;
     background: linear-gradient(104.74deg, #050A27 0%, #4A548C 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -76,13 +77,19 @@
     }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1439px) {
+    .CardGroup {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
     .CardGroup {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 730px) {
     .CardGroup {
         grid-template-columns: repeat(1, 1fr);
     }

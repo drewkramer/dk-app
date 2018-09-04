@@ -14,9 +14,6 @@ a {
 
 .Hero {
   height: 1000px;
-  background: url('../images/wallpaper3.jpg');
-  background-size: cover;
-  background-position: center;
   position: relative;
 }
 
@@ -25,6 +22,7 @@ a {
   margin: 0 auto;
   padding: 150px 50px;
   text-align: center;
+  position: relative;
 }
 
 .Hero h1 {
@@ -37,7 +35,7 @@ a {
 }
 
 .Hero p {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.8);
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -49,23 +47,32 @@ a {
   margin-top: 40px;
   font-size: 20px;
   text-transform: capitalize;
-  color: black;
+  color: #fff;
   font-weight: 700;
-  background: white;
-  padding: 20px 42px;
+  background: transparent;
+  padding: 10px 25px;
   border-radius: 50px;
-  box-shadow: 0 10px 20px 0 rgba(0,0,0,.3);
+  border: 1px solid #fff;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero a:hover {
-  background: black;
-  color: white;
+  background: #fff;
+  color: #000;
 }
 
 .Hero svg {
   position: absolute;
   bottom: 0;
+  left: 0;
+}
+
+.Hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
   left: 0;
 }
 
