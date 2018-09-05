@@ -1,47 +1,47 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0d4037de5ce7b0305adf.js",
-      "component---src-pages-index-js-0d4037de5ce7b0305adf.js.map"
+      "component---src-pages-index-js-8cca52bf0c03a373e61f.js",
+      "component---src-pages-index-js-8cca52bf0c03a373e61f.js.map"
+    ],
+    "component---src-pages-courses-js": [
+      "component---src-pages-courses-js-e5fcbbfc392ac6d42439.js",
+      "component---src-pages-courses-js-e5fcbbfc392ac6d42439.js.map"
     ],
     "path---": [
-      "path----394c1b96dead3c788f9d.js",
-      "path----394c1b96dead3c788f9d.js.map"
+      "path----6b6884b7c0b75a32c02a.js",
+      "path----6b6884b7c0b75a32c02a.js.map"
+    ],
+    "path---courses": [
+      "path---courses-a0e39f21c11f6a62c5ab.js",
+      "path---courses-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-09025c41488778812828.js",
-      "component---src-layouts-index-js-09025c41488778812828.js.map"
-    ],
-    "path---page-2": [
-      "path---page-2-a0e39f21c11f6a62c5ab.js",
-      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-layouts-index-js-75cd2d77afd4598572a2.js",
+      "component---src-layouts-index-js-75cd2d77afd4598572a2.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+      "component---src-pages-404-js-a0e7e3f5fa2b94b648df.js",
+      "component---src-pages-404-js-a0e7e3f5fa2b94b648df.js.map"
     ],
     "commons": [
-      "commons-ba4cb63d6a7a0250cd9f.js",
+      "commons-b71e7233220735cda602.js",
       "build-js-styles.css",
-      "commons-ba4cb63d6a7a0250cd9f.js.map",
+      "commons-b71e7233220735cda602.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-1d4f0f19c1c44398ab65.js",
-      "component---src-pages-page-2-js-1d4f0f19c1c44398ab65.js.map"
-    ],
     "app": [
-      "app-3277d5269a4b97b2c489.js",
+      "app-b27544db18a0af72614b.js",
       "build-js-styles.css",
-      "app-3277d5269a4b97b2c489.js.map",
+      "app-b27544db18a0af72614b.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
