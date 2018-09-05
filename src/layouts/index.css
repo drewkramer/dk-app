@@ -13,7 +13,7 @@ a {
 }
 
 .Hero {
-  height: 960px;
+  height: auto;
   position: relative;
 }
 
@@ -98,6 +98,7 @@ a {
   justify-items: center;
   position: relative;
   z-index: 1;
+  margin-bottom: -70px;
 }
 
 @media (max-width: 640px) {
